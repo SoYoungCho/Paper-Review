@@ -26,7 +26,8 @@
 		- these are drawn from the same underlying data distribution
 			- (train & test 데이터는 동일한 모집단에서 추출되었다고 가정한다는 것)
 		- 즉, AutoML 문제는 test 데이터의 예측값인 ![](https://latex.codecogs.com/gif.latex?%5Chat%7By%7D_%7Bn&plus;j%7D%2C%20...%2C%20%5Chat%7By%7D_%7Bn&plus;m%7D)을 자동으로 구하는 것
-			- 이 때 Loss 는 ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7Bm%7D%20%5Csum_%7Bj%3D1%7D%5Em%20L%28%5Chat%7By%7D_%7Bn&plus;j%7D%2C%20y_%7Bn&plus;j%7D%29)
+			- 이 때 Loss 는  
+			![](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7Bm%7D%20%5Csum_%7Bj%3D1%7D%5Em%20L%28%5Chat%7By%7D_%7Bn&plus;j%7D%2C%20y_%7Bn&plus;j%7D%29)
 			- m개의 각 테스트 데이터 Loss의 전체 평균
 - 위에서 **fixed computational budget** 표현이 있었는데, butget (![](https://latex.codecogs.com/gif.latex?b))란?
 	- budget은 computational resources (연산 자원 의미)
@@ -55,5 +56,5 @@
 		- 이유? 알고리즘 랭킹은 하이퍼파라미터가 잘 튜닝되었는지에 따라 영향을 많이 받기 때문
 	- 하지만 이 두 문제는 하나의 조인트 최적화 문제로 다루어질 수 있다고 한다.
 		(single, structured, joint optimization problem)
-- 여기서 또 CASH 문제를 수식적으로 정의하면, 다음과 같다.
+- 여기서 또 CASH 문제를 수식적으로 정의하면, 다음과 같다.  
 ![](https://latex.codecogs.com/gif.latex?argmin%20%5Cfrac%7B1%7D%7BK%7D%20%5Csum_%7Bi%3D1%7D%5EK%20L%28A%5E%7B%28j%29%7D_%5Clambda%2C%20D%5E%7B%28i%29%7D%20_%7Btrain%7D%2C%20D%5E%7B%28i%29%7D_%7Bvalid%7D%29)
