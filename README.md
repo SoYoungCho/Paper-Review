@@ -1,5 +1,5 @@
 # Paper-Review :pencil:
-Machine Learning & Deep Learning Paper Review in Korean :kr:
+Machine Learning & Deep Learning Paper Review (written in :kr:)
 
 ### AutoML 
 |Date|Paper|Year|Note|Links|Tag|
