@@ -91,4 +91,7 @@
 	  - 위 단계에서 나온 triangular band pass filter들은 이전에 FFT 를 통해 주파수 단위로 되어 있는데, 이를 다시 time-like 단위로 변환한다.
   
 
-+ 추가 참고 블로그 : [ratsgo speech book](https://ratsgo.github.io/speechbook/docs/fe/mfcc)
++ 추가 참고 블로그
+  - [ratsgo speech book](https://ratsgo.github.io/speechbook/docs/fe/mfcc)
+  - [sooftware (동일 논문에 대해 직관적으로 자세히 설명하니 강력 추천합니다)](https://blog.naver.com/sooftware/221661644808)
+
