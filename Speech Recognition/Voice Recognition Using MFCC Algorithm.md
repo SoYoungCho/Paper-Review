@@ -19,6 +19,8 @@
 - 논문은 MFCC 적용이 간편하다는 점이 장점이라고 말한다.
 - 이제 MFCC 를 구하는 과정을 단계별로 살펴보자.
 
+![](https://postfiles.pstatic.net/MjAxOTA5MjhfMTE2/MDAxNTY5NjA2NzY2NDE1.OEBQ-Z4ErdCDAj6zhrhY0ka_wwtvamNbKIkJiyn__-wg.BzjZoQkvfr6pjvSXjQUabyGaAeoMdYfS6QNPgQEVpx4g.PNG.sooftware/image.png?type=w773)
+
 ### Step 1. Pre-Emphasis
 - Pre-Emphasis란, 잡음을 줄이기 위해 특정 주파수의 진폭을 높여 송신하는 조작이다.
 - high-pass filter를 적용한다.
