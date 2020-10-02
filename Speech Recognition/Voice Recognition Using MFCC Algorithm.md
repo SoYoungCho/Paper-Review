@@ -1,6 +1,5 @@
 # Voice Recognition Using MFCC Algorithm
 
-- 본 논문은 카브 NLP & Speech 스터디에서 첫 주차로 진행한 논문이다.
 - 내용은 MFCC 알고리즘이 어떻게 음성인식에 쓰이는지 절차를 정리하였다.
 - 음성인식에 대한 베이스가 제로이기에 느낌을 파악하는 용도로 간단히 살펴보았다.
 
