@@ -1,5 +1,6 @@
 # Paper-Review :pencil:
-Machine Learning & Deep Learning Paper Review (written in :kr:)
+- Machine Learning & Deep Learning Paper Review (Reviews are written in :kr:)
+- 아직 초보자라 많이 부족합니다. 제가 잘못 이해한 내용이 있을 수 있으니 지적, 피드백해주시면 정말 감사하겠습니다 👏
 
 ### AutoML 
 |Date|Paper|Year|Note|Links|Tag|
