@@ -172,5 +172,21 @@
 2. 사이버 보안
 3. 금융
 4. 뉴스
+- 뉴스 : 다이나믹, 시간에 따라 변화하고, 정보가 압축적이라는 특징이 있음
+- 이러한 특징을 다루고자 KG 활용
+- 연구예시
+	- (1) DKN : 뉴스에서의 latent knowledge-level connection을 찾기 위해 KG 활용
+	- (2) 이벤트 중심 KG (event-centric)로 세계의 변화 관련 뉴스를 다양한 언어로 표현
+	- (3) 비구조화된 '뉴스 기사'와 구조화된 '위키데이터'를 결합하여 이벤트를 표현하는 뉴스 기사 추출
+	- (4) 가짜뉴스 탐지 : KG에서의 link-prediction task로 다룸
+		- Factual Statements network에서 이질적인 연결 패턴 찾아냄
+- 저자의 견해 : 뉴스는 빠르게 서로 다른 나라로 전파되기에 **entity resolution**, **semantic role labelling**이 특히나 multilingual 환경에서 중요
 5. 교육
+- 학습자료 추천, 컨셉 시각화에 KG 활용
+- 연구예시
+	- (1) KnowEDU : 교육을 위한 KG 자동으로 구성
+		- node -> 학습해야하는 교수학적 컨셉, 이런 컨셉 추출하기 위해 RNN 모델 적용
+		- relation -> 학생들의 performance 데이터에서의 연관규칙분석 이용하여 식별됨
+	- (2) 학습 자료 추천, 통합하는 툴에서 KG를 사용하여 시멘틱 표현, 중요 컨셉 식별
+- 저자의 견해 : 단순히 relation 추출하는 것에 초점을 두지 말고 깊이 있고 정확하게 추출하여 latent info 발견에 도움이 될 것
 6. 기타 applications
