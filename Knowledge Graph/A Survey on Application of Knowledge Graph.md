@@ -1,4 +1,4 @@
-#  A Survey on Application of Knowledge Graph
+#  A Survey on Application of Knowledge Graph (미완)
 ### Published
 - CCEAI 2020
 - Journal of Physics
